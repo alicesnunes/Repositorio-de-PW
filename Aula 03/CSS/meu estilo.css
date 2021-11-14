@@ -1,9 +1,11 @@
 img {
-    width: 360px; /*largura*/
-    height: 400px; /*altura*/
-    max-width: 360px; /*mexe sem alterar a proporção*/
-    border-radius: 50%;  /*arredonda as bordas da imagem*/
+    width: 360px;
+    /*largura*/
+    height: 400px;
+    /*altura*/
+    max-width: 360px;
+    /*mexe sem alterar a proporção*/
+    border-radius: 50%;
+    /*arredonda as bordas da imagem*/
     border: 5px inset rgb(4, 4, 36);
-    
-
 }
