@@ -5,8 +5,7 @@ img {
     /*altura*/
     max-width: 360px;
     /*mexe sem alterar a proporção*/
-    border-radius: 50%;
+    border-radius: 30%;
     /*arredonda as bordas da imagem*/
     border: 5px inset rgb(4, 4, 36);
-    opacity: 0.5;
 }
