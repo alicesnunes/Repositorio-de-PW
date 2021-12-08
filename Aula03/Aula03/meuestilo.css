@@ -7,5 +7,5 @@ img {
     /*mexe sem alterar a proporção*/
     border-radius: 30%;
     /*arredonda as bordas da imagem*/
-    border: 5px inset rgb(4, 4, 36);
+    border: 2px inset rgb(4, 4, 36);
 }
