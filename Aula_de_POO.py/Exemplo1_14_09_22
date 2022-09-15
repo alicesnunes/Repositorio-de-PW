@@ -1,0 +1,28 @@
+class Endereco:
+    def __init__(self,rua,numero,complemento,cep):
+        self.rua = rua 
+        self.numero = numero
+        self.complemento = complemento
+        self.cep =  cep
+
+class Pessoa:
+    def __init__(self,nome,idade,endereco):
+        self.nome = nome
+        self.idade = idade
+        self.endereco = endereco
+
+#Cria objeto Endereco 
+end1 = Endereco ("Rua Doutor Mario Monteiro",  140, 'casa 2', '03557150')
+
+#Cria objeto Pessoa 
+pessoa1 = Pessoa ("Alice", 18, end1 )
+
+# exibe dados da pessoa
+print('Nome:', pessoa1.nome)
+print('Idade:', pessoa1.idade)
+
+# exibe dados do endereço da pessoa
+print('Rua:', pessoa1.endereco.rua)
+print('Número:', pessoa1.endereco.numero)
+print('Complemento:', pessoa1.endereco.complemento)
+print('CEP:', pessoa1.endereco.cep)
